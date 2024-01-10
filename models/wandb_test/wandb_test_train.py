@@ -9,6 +9,8 @@ lr = 0.01
 run = wandb.init(
     # Set the project where this run will be logged
     project="ium-projekt",
+    # Set the entity (team) responsible for this run
+    entity="ium-team",
     # Track hyperparameters and run metadata
     config={
         "learning_rate": lr,

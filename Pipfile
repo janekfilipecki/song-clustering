@@ -10,6 +10,7 @@ numpy = "*"
 plotly = "*"
 nbformat = "*"
 wandb = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
