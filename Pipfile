@@ -9,6 +9,7 @@ pandas = "*"
 numpy = "*"
 plotly = "*"
 nbformat = "*"
+wandb = "*"
 
 [dev-packages]
 
