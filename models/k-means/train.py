@@ -1,5 +1,6 @@
 import wandb
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 
 wandb.login()
 
@@ -19,5 +20,6 @@ labels = kmeans.labels_
 wandb.log({"cluster_assignments": wandb.Histogram(labels)})
 inertia = kmeans.inertia_
 wandb.log({"inertia": inertia})
+wandb.log({"silhouette_score": silhouette_score("DATA", labels)})
 
 wandb.finish()
