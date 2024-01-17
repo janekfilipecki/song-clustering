@@ -11,6 +11,8 @@ plotly = "*"
 nbformat = "*"
 wandb = "*"
 scikit-learn = "*"
+seaborn = "*"
+umap-learn = "*"
 
 [dev-packages]
 

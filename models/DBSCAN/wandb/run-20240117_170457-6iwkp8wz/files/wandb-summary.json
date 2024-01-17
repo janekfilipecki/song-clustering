@@ -1,0 +1,1 @@
+{"metric": "euclidean", "_timestamp": 1705507784.7379405, "_runtime": 286.4894585609436, "_step": 20, "eps": 1.0, "silhouette_score": 0.46210687417731167, "_wandb": {"runtime": 285}}

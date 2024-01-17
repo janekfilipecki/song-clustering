@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-01-16T20:26:35.650002",
+    "startedAt": "2024-01-16T20:26:28.223610",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/janekfilipecki/ium-projekt.git",
+        "commit": "0aa141c31e3ebfa08d82b4e007bc904428da715f"
+    },
+    "email": "filipeckijan@gmail.com",
+    "root": "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt",
+    "host": "XPS-Filipecki",
+    "username": "filipeckijan",
+    "executable": "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2304.007,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2304.007,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 21.343128204345703
+        }
+    },
+    "memory": {
+        "total": 7.652324676513672
+    }
+}
