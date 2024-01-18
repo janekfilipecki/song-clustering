@@ -1861,3 +1861,247 @@ NoneType: None
 2024-01-17 18:48:00,039 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
 NoneType: None
 2024-01-17 18:48:01,893 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:06,894 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:11,895 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:16,896 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:21,897 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:26,898 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:29,892 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:48:32,893 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:37,894 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:42,900 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:47,901 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:52,902 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:57,904 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:48:59,894 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:49:00,048 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:49:03,899 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:08,901 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:13,903 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:18,905 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:23,907 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:28,909 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:29,893 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:49:30,043 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:49:34,896 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:39,898 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:44,900 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:49,901 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:54,903 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:49:59,894 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:50:00,039 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:50:00,896 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:05,897 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:10,899 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:15,901 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:20,903 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:25,905 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:29,895 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:50:30,049 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:50:31,897 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:36,899 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:41,902 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:46,903 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:51,905 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:56,907 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:50:59,895 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:51:00,050 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:51:02,897 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:07,899 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:12,902 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:17,908 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:22,911 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:27,913 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:29,896 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:51:30,046 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:51:33,898 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:38,901 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:43,905 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:48,907 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:53,909 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:58,911 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:51:59,899 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:52:00,065 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:52:04,905 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:09,909 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:14,913 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:19,915 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:24,919 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:29,903 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:52:30,053 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:52:30,907 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:35,910 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:40,914 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:45,917 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:50,919 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:55,923 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:52:59,901 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:53:01,904 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:06,907 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:11,911 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:16,914 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:21,917 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:26,921 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:29,911 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:53:30,070 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:53:32,915 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:37,920 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:42,923 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:47,932 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:52,934 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:57,938 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:53:59,908 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:54:00,079 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:54:03,912 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:08,916 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:13,919 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:18,922 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:23,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:28,930 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:29,910 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:54:30,097 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:54:34,916 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:39,920 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:44,924 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:49,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:54,928 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:54:59,911 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:55:00,915 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:04,711 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:55:05,919 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:10,923 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:15,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:20,929 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:25,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:29,912 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:55:31,915 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:36,918 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:41,922 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:46,924 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:51,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:56,930 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:55:59,918 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:56:00,078 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:56:02,922 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:07,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:12,929 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:17,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:22,935 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:27,938 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:29,916 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:56:30,066 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:56:33,921 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:38,925 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:43,928 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:48,930 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:53,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:58,937 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:56:59,918 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:57:00,077 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:57:04,923 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:09,926 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:14,931 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:19,934 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:24,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:29,919 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:57:30,921 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:35,924 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:40,928 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:45,931 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:50,936 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:55,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:57:59,924 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:58:00,081 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:58:01,928 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:06,931 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:11,935 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:16,937 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:21,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:26,945 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:29,923 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:58:30,081 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:58:32,927 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:37,930 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:42,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:47,936 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:52,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:57,943 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:58:59,924 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:59:00,109 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:59:03,929 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:08,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:13,935 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:18,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:23,942 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:28,946 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:29,927 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 18:59:30,081 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 18:59:34,932 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:39,936 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:44,938 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:49,942 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:54,945 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 18:59:59,928 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:00:00,112 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 19:00:00,932 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:05,935 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:10,938 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:15,942 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:20,947 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:25,951 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:29,936 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:00:30,099 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 19:00:31,940 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:36,943 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:41,946 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:46,950 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:51,953 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:56,957 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:00:59,931 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:01:02,936 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:07,940 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:12,944 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:17,946 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:22,947 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:27,949 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:29,931 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:01:30,293 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 19:01:33,933 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:38,935 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:43,937 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:48,938 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:53,939 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:58,941 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:01:59,932 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:02:00,081 ERROR   FileStreamThread:5518 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/ium-team/ium-projekt/hrjqydve/file_stream
+NoneType: None
+2024-01-17 19:02:04,934 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:02:09,936 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:02:14,937 DEBUG   HandlerThread:5518 [handler.py:handle_request():146] handle_request: status_report
+2024-01-17 19:02:15,079 INFO    memory    :5518 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-01-17 19:02:15,083 DEBUG   SystemMonitor:5518 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-17 19:02:15,093 DEBUG   SystemMonitor:5518 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-17 19:02:15,098 DEBUG   SenderThread:5518 [sender.py:send():382] send: stats
+2024-01-17 19:02:17,096 INFO    MainThread:5518 [internal.py:handle_exit():76] Internal process exited
