@@ -1,0 +1,1 @@
+{"num_clusters": 11, "_timestamp": 1705619654.9678187, "_runtime": 21.29961371421814, "_step": 2, "inertia": 5095.9879841307, "silhouette_score": 0.11729240538967879, "_wandb": {"runtime": 20}}

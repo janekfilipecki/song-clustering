@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 27, in <module>
+    main()
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 21, in main
+    data = prepare_playlists(raw_data_folder_path)
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/prepare_playlists.py", line 20, in prepare_playlists
+    data = preprocess(raw_data_folder_path, numerical_columns)
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/preprocess.py", line 8, in preprocess
+    files = os.listdir(raw_data_folder_path)
+FileNotFoundError: [Errno 2] No such file or directory: '../data_v2/data/'
