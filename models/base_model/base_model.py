@@ -1,7 +1,7 @@
-from data_processor import DataProcessor
+from models.base_model.data_processor import DataProcessor
 
 
-class BaseModel:
+class PlaylistBaseModel:
     def __init__(self):
         self.data_processor = DataProcessor()
         self.genres = self.data_processor.get_genres()
@@ -33,6 +33,6 @@ class BaseModel:
             denominator = len(playlists[genre])
             playlist_popularity[genre] = 0.0 if denominator == 0 else (numerator / denominator)
         top_genres = sorted(playlist_popularity, key=lambda x: playlist_popularity[x], reverse=True)[:10]
-        top_playlists = {genre : playlists[genre] for genre in top_genres}
+        top_playlists = [playlists[genre] for genre in top_genres]
         return top_playlists
     

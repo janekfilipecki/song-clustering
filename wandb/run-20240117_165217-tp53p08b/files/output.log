@@ -1,0 +1,16 @@
+/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/train.py:14: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  data = df = pd.read_json(
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/train.py", line 14, in <module>
+    data = df = pd.read_json(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/io/json/_json.py", line 804, in read_json
+    return json_reader.read()
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/io/json/_json.py", line 1012, in read
+    obj = self._get_object_parser(self._combine_lines(data_lines))
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/io/json/_json.py", line 1040, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/io/json/_json.py", line 1173, in parse
+    self._parse()
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/io/json/_json.py", line 1366, in _parse
+    ujson_loads(json, precise_float=self.precise_float), dtype=None
+ValueError: Expected object or value

@@ -1,0 +1,223 @@
+2024-01-16 21:16:23,787 INFO    StreamThr :5373 [internal.py:wandb_internal():86] W&B internal server running at pid: 5373, started at: 2024-01-16 21:16:23.781320
+2024-01-16 21:16:23,791 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status
+2024-01-16 21:16:23,795 INFO    WriterThread:5373 [datastore.py:open_for_write():87] open: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/run-9it338ja.wandb
+2024-01-16 21:16:23,801 DEBUG   SenderThread:5373 [sender.py:send():382] send: header
+2024-01-16 21:16:23,803 DEBUG   SenderThread:5373 [sender.py:send():382] send: run
+2024-01-16 21:16:24,509 INFO    SenderThread:5373 [dir_watcher.py:__init__():211] watching files in: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files
+2024-01-16 21:16:24,509 INFO    SenderThread:5373 [sender.py:_start_run_threads():1136] run started: 9it338ja with start time 1705436183.014734
+2024-01-16 21:16:24,566 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: check_version
+2024-01-16 21:16:24,575 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: check_version
+2024-01-16 21:16:24,921 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: run_start
+2024-01-16 21:16:24,922 DEBUG   HandlerThread:5373 [system_info.py:__init__():27] System info init
+2024-01-16 21:16:24,923 DEBUG   HandlerThread:5373 [system_info.py:__init__():42] System info init done
+2024-01-16 21:16:24,923 INFO    HandlerThread:5373 [system_monitor.py:start():194] Starting system monitor
+2024-01-16 21:16:24,924 INFO    SystemMonitor:5373 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-16 21:16:24,924 INFO    HandlerThread:5373 [system_monitor.py:probe():214] Collecting system info
+2024-01-16 21:16:24,925 INFO    SystemMonitor:5373 [interfaces.py:start():190] Started cpu monitoring
+2024-01-16 21:16:24,928 INFO    SystemMonitor:5373 [interfaces.py:start():190] Started disk monitoring
+2024-01-16 21:16:24,929 INFO    SystemMonitor:5373 [interfaces.py:start():190] Started memory monitoring
+2024-01-16 21:16:24,930 INFO    SystemMonitor:5373 [interfaces.py:start():190] Started network monitoring
+2024-01-16 21:16:24,937 DEBUG   HandlerThread:5373 [system_info.py:probe():151] Probing system
+2024-01-16 21:16:24,954 DEBUG   HandlerThread:5373 [system_info.py:_probe_git():136] Probing git
+2024-01-16 21:16:25,066 DEBUG   HandlerThread:5373 [system_info.py:_probe_git():144] Probing git done
+2024-01-16 21:16:25,066 DEBUG   HandlerThread:5373 [system_info.py:probe():199] Probing system done
+2024-01-16 21:16:25,067 DEBUG   HandlerThread:5373 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-01-16T20:16:24.937867', 'startedAt': '2024-01-16T20:16:16.568201', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/janekfilipecki/ium-projekt.git', 'commit': '0aa141c31e3ebfa08d82b4e007bc904428da715f'}, 'email': 'filipeckijan@gmail.com', 'root': '/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt', 'host': 'XPS-Filipecki', 'username': 'filipeckijan', 'executable': '/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2304.007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}, {'current': 2304.007, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 21.34219741821289}}, 'memory': {'total': 7.652324676513672}}
+2024-01-16 21:16:25,067 INFO    HandlerThread:5373 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-16 21:16:25,067 INFO    HandlerThread:5373 [system_monitor.py:probe():227] Publishing system info
+2024-01-16 21:16:25,070 INFO    HandlerThread:5373 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-16 21:16:25,071 DEBUG   SenderThread:5373 [sender.py:send():382] send: files
+2024-01-16 21:16:25,072 INFO    SenderThread:5373 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-16 21:16:25,096 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-16 21:16:25,097 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: python_packages
+2024-01-16 21:16:25,097 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:16:25,098 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:16:25,103 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:16:25,480 DEBUG   SenderThread:5373 [sender.py:send():382] send: telemetry
+2024-01-16 21:16:25,523 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/requirements.txt
+2024-01-16 21:16:25,527 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/wandb-metadata.json
+2024-01-16 21:16:25,824 INFO    wandb-upload_0:5373 [upload_job.py:push():131] Uploaded file /tmp/tmpi7ro1ycewandb/gcx5yly8-wandb-metadata.json
+2024-01-16 21:16:29,501 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:34,526 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:39,553 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:40,099 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:16:40,100 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:16:40,129 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:16:45,340 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:50,348 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:55,142 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:16:55,144 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:16:55,189 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:16:55,428 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:16:56,232 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/config.yaml
+2024-01-16 21:17:00,644 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:05,650 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:10,141 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:17:10,144 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:17:10,145 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:17:11,441 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:16,537 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:21,542 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:24,957 DEBUG   SystemMonitor:5373 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-16 21:17:24,959 DEBUG   SenderThread:5373 [sender.py:send():382] send: stats
+2024-01-16 21:17:25,145 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:17:25,147 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:17:25,149 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:17:27,421 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:32,482 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:37,552 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:40,149 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:17:40,151 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:17:40,152 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:17:43,410 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:48,417 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:53,443 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:17:54,979 DEBUG   SenderThread:5373 [sender.py:send():382] send: stats
+2024-01-16 21:17:55,164 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:17:55,167 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:17:55,189 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:17:59,409 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:04,417 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:09,456 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:10,164 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-16 21:18:10,165 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: stop_status
+2024-01-16 21:18:10,209 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:18:14,585 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:19,598 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:23,209 DEBUG   SenderThread:5373 [sender.py:send():382] send: telemetry
+2024-01-16 21:18:23,214 DEBUG   SenderThread:5373 [sender.py:send():382] send: exit
+2024-01-16 21:18:23,215 INFO    SenderThread:5373 [sender.py:send_exit():589] handling exit code: 0
+2024-01-16 21:18:23,216 INFO    SenderThread:5373 [sender.py:send_exit():591] handling runtime: 118
+2024-01-16 21:18:23,220 INFO    SenderThread:5373 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-16 21:18:23,223 INFO    SenderThread:5373 [sender.py:send_exit():597] send defer
+2024-01-16 21:18:23,223 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,224 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-16 21:18:23,225 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,225 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-16 21:18:23,226 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 1
+2024-01-16 21:18:23,227 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,228 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-16 21:18:23,229 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,230 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-16 21:18:23,230 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 2
+2024-01-16 21:18:23,231 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,231 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-16 21:18:23,232 INFO    HandlerThread:5373 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-16 21:18:23,233 DEBUG   SystemMonitor:5373 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-16 21:18:23,233 INFO    HandlerThread:5373 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-16 21:18:23,233 DEBUG   SystemMonitor:5373 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-16 21:18:23,234 INFO    HandlerThread:5373 [interfaces.py:finish():202] Joined disk monitor
+2024-01-16 21:18:23,236 INFO    HandlerThread:5373 [interfaces.py:finish():202] Joined memory monitor
+2024-01-16 21:18:23,239 INFO    HandlerThread:5373 [interfaces.py:finish():202] Joined network monitor
+2024-01-16 21:18:23,242 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,242 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-16 21:18:23,243 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 3
+2024-01-16 21:18:23,244 DEBUG   SenderThread:5373 [sender.py:send():382] send: stats
+2024-01-16 21:18:23,245 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,247 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-16 21:18:23,248 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,250 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-16 21:18:23,250 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 4
+2024-01-16 21:18:23,251 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,251 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-16 21:18:23,252 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,253 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-16 21:18:23,253 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 5
+2024-01-16 21:18:23,254 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,254 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-16 21:18:23,255 DEBUG   SenderThread:5373 [sender.py:send():382] send: summary
+2024-01-16 21:18:23,259 INFO    SenderThread:5373 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-16 21:18:23,263 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,264 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-16 21:18:23,264 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 6
+2024-01-16 21:18:23,265 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,266 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-16 21:18:23,267 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,270 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-16 21:18:23,275 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: status_report
+2024-01-16 21:18:23,290 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/wandb-summary.json
+2024-01-16 21:18:23,294 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/output.log
+2024-01-16 21:18:23,700 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 7
+2024-01-16 21:18:23,700 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:23,701 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-16 21:18:23,702 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:23,703 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-16 21:18:24,216 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-16 21:18:24,310 INFO    Thread-25 :5373 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/config.yaml
+2024-01-16 21:18:25,137 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 8
+2024-01-16 21:18:25,138 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: poll_exit
+2024-01-16 21:18:25,138 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:25,139 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-16 21:18:25,140 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:25,141 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-16 21:18:25,141 INFO    SenderThread:5373 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-16 21:18:25,149 INFO    SenderThread:5373 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-16 21:18:25,149 INFO    SenderThread:5373 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-01-16 21:18:25,150 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 9
+2024-01-16 21:18:25,151 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:25,151 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-16 21:18:25,152 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:25,152 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-16 21:18:25,153 INFO    SenderThread:5373 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-16 21:18:25,217 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-16 21:18:25,336 INFO    SenderThread:5373 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/output.log
+2024-01-16 21:18:25,338 INFO    SenderThread:5373 [dir_watcher.py:finish():388] scan: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files
+2024-01-16 21:18:25,340 INFO    SenderThread:5373 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/config.yaml config.yaml
+2024-01-16 21:18:25,345 INFO    SenderThread:5373 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/output.log output.log
+2024-01-16 21:18:25,357 INFO    SenderThread:5373 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/requirements.txt requirements.txt
+2024-01-16 21:18:25,369 INFO    SenderThread:5373 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/wandb-metadata.json wandb-metadata.json
+2024-01-16 21:18:25,369 INFO    SenderThread:5373 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/wandb-summary.json wandb-summary.json
+2024-01-16 21:18:25,379 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 10
+2024-01-16 21:18:25,380 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: poll_exit
+2024-01-16 21:18:25,380 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:25,381 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-16 21:18:25,384 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:25,384 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-16 21:18:25,385 INFO    SenderThread:5373 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-16 21:18:25,773 INFO    wandb-upload_0:5373 [upload_job.py:push():131] Uploaded file /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/config.yaml
+2024-01-16 21:18:26,073 INFO    wandb-upload_1:5373 [upload_job.py:push():131] Uploaded file /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/output.log
+2024-01-16 21:18:26,178 INFO    wandb-upload_2:5373 [upload_job.py:push():131] Uploaded file /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/requirements.txt
+2024-01-16 21:18:26,218 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-16 21:18:26,219 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: poll_exit
+2024-01-16 21:18:26,434 INFO    wandb-upload_3:5373 [upload_job.py:push():131] Uploaded file /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/files/wandb-summary.json
+2024-01-16 21:18:26,636 INFO    Thread-24 (_thread_body):5373 [sender.py:transition_state():617] send defer: 11
+2024-01-16 21:18:26,637 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:26,637 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-16 21:18:26,638 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:26,638 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-16 21:18:26,639 INFO    SenderThread:5373 [file_pusher.py:join():181] waiting for file pusher
+2024-01-16 21:18:26,639 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 12
+2024-01-16 21:18:26,639 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:26,640 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-16 21:18:26,640 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:26,641 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-16 21:18:26,641 INFO    SenderThread:5373 [file_stream.py:finish():595] file stream finish called
+2024-01-16 21:18:27,220 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-16 21:18:27,270 INFO    SenderThread:5373 [file_stream.py:finish():599] file stream finish is done
+2024-01-16 21:18:27,271 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 13
+2024-01-16 21:18:27,271 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: poll_exit
+2024-01-16 21:18:27,271 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:27,272 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-16 21:18:27,273 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:27,273 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-16 21:18:27,274 INFO    SenderThread:5373 [sender.py:transition_state():617] send defer: 14
+2024-01-16 21:18:27,274 DEBUG   SenderThread:5373 [sender.py:send():382] send: final
+2024-01-16 21:18:27,275 DEBUG   SenderThread:5373 [sender.py:send():382] send: footer
+2024-01-16 21:18:27,274 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: defer
+2024-01-16 21:18:27,275 INFO    HandlerThread:5373 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-16 21:18:27,276 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: defer
+2024-01-16 21:18:27,276 INFO    SenderThread:5373 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-16 21:18:27,278 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-16 21:18:27,279 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: poll_exit
+2024-01-16 21:18:27,281 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-16 21:18:27,282 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: server_info
+2024-01-16 21:18:27,283 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: server_info
+2024-01-16 21:18:27,329 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-16 21:18:27,330 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-16 21:18:27,331 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: job_info
+2024-01-16 21:18:27,450 DEBUG   SenderThread:5373 [sender.py:send_request():409] send_request: job_info
+2024-01-16 21:18:27,451 DEBUG   HandlerThread:5373 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-16 21:18:27,451 INFO    HandlerThread:5373 [handler.py:finish():869] shutting down handler
+2024-01-16 21:18:28,332 INFO    WriterThread:5373 [datastore.py:close():296] close: /mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/wandb/run-20240116_211616-9it338ja/run-9it338ja.wandb
+2024-01-16 21:18:28,451 INFO    SenderThread:5373 [sender.py:finish():1572] shutting down sender
+2024-01-16 21:18:28,452 INFO    SenderThread:5373 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-16 21:18:28,453 INFO    SenderThread:5373 [file_pusher.py:join():181] waiting for file pusher

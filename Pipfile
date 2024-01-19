@@ -11,8 +11,13 @@ plotly = "*"
 nbformat = "*"
 wandb = "*"
 scikit-learn = "*"
+fastapi = "*"
+uvicorn = "*"
+seaborn = "*"
+umap-learn = "*"
 
 [dev-packages]
+uvicorn = "*"
 
 [requires]
 python_version = "3.12"

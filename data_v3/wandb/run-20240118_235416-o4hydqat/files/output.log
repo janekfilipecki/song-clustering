@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 27, in <module>
+    main()
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 21, in main
+    data = prepare_playlists(raw_data_folder_path)
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/prepare_playlists.py", line 20, in prepare_playlists
+    data = preprocess(raw_data_folder_path, numerical_columns)
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/preprocess.py", line 28, in preprocess
+    'track_id')['popularity_coefficient'].sum().reset_index()
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 3063, in sum
+    result = self._agg_general(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1839, in _agg_general
+    result = self._cython_agg_general(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1929, in _cython_agg_general
+    new_mgr = data.grouped_reduce(array_func)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/internals/base.py", line 336, in grouped_reduce
+    res = func(arr)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1905, in array_func
+    result = self.grouper._cython_operation(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 812, in _cython_operation
+    cy_op = WrappedCythonOp(kind=kind, how=how, has_dropped_na=self.has_dropped_na)
+  File "properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 726, in has_dropped_na
+    return bool((self.group_info[0] < 0).any())
+  File "properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 730, in group_info
+    comp_ids, obs_group_ids = self._get_compressed_codes()
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 754, in _get_compressed_codes
+    return ping.codes, np.arange(len(ping.group_index), dtype=np.intp)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 691, in codes
+    return self._codes_and_uniques[0]
+  File "properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 801, in _codes_and_uniques
+    codes, uniques = algorithms.factorize(  # type: ignore[assignment]
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/algorithms.py", line 795, in factorize
+    codes, uniques = factorize_array(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/pandas/core/algorithms.py", line 595, in factorize_array
+    uniques, codes = table.factorize(
+KeyboardInterrupt

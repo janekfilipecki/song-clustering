@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/k-means/train.py", line 20, in <module>
+    kmeans.fit("DATA")
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py", line 1475, in fit
+    X = self._validate_data(
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/base.py", line 605, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/utils/validation.py", line 915, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 380, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+ValueError: could not convert string to float: 'DATA'

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/train.py", line 32, in <module>
+    inertia = dbscan.inertia_
+AttributeError: 'DBSCAN' object has no attribute 'inertia_'

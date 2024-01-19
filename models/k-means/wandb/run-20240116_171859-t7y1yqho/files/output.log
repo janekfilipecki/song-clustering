@@ -1,0 +1,12 @@
+/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/k-means/train.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_numerical["kmeans_labels"] = labels
+/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/k-means/train.py:30: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_numerical["kmeans_labels"] = data_numerical["kmeans_labels"].astype(

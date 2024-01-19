@@ -1,0 +1,16 @@
+
+[-1]
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/models/DBSCAN/train.py", line 36, in <module>
+    sihlouette = silhouette_score(data_numerical, labels)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/metrics/cluster/_unsupervised.py", line 130, in silhouette_score
+    return np.mean(silhouette_samples(X, labels, metric=metric, **kwds))
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 187, in wrapper
+    return func(*args, **kwargs)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/metrics/cluster/_unsupervised.py", line 276, in silhouette_samples
+    check_number_of_labels(len(le.classes_), n_samples)
+  File "/home/filipeckijan/.local/share/virtualenvs/ium-projekt-ziE9g0x4/lib/python3.10/site-packages/sklearn/metrics/cluster/_unsupervised.py", line 37, in check_number_of_labels
+    raise ValueError(
+ValueError: Number of labels is 1. Valid values are 2 to n_samples - 1 (inclusive)

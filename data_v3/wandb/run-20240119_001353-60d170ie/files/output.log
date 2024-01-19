@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 27, in <module>
+    main()
+  File "/mnt/c/Users/dziew/Documents/studia/ium/ium-projekt/data_v3/sihlouette_score.py", line 22, in main
+    playlists = data["track_id"].tolist()
+TypeError: list indices must be integers or slices, not str
