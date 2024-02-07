@@ -1,6 +1,5 @@
-# IUM 2023Z
-## Generating playlists for a fictional music streaming service
-### Jan Filipecki, Jakub Niezabitowski
+# Generating playlists for a fictional music streaming service
+## Jan Filipecki, Jakub Niezabitowski
 
 ## Project description
 
